@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+apt --no-install-recommends install xserver-xorg xorg xserver-xorg-video-intel 
+apt install sudo xinit i3wm geany xdotool yad terminator jq xbacklight rofi -y
+apt install pcmanfm ranger adapta-gtk-theme papirus-icon-theme breeze-cursor-theme -y
+apt install libnotify-bin pulseaudio pavulcontrol ttf-mscorefonts-installer -y
+apt install lxrandr lxappearance xarchiver smplayer mtp-tools gvfs-backends feh -y
+apt install graphicsmagick atool highlight poppler-utils mupdf transmission -y
+apt install git rxvt-unicode lxpolkit conky compton -y
+
+
+
+#polybar#
+
+apt install cmake cmake-data libcairo2-dev libxcb1-dev libxcb-ewmh-dev libxcb-icccm4-dev libxcb-image0-dev libxcb-randr0-dev libxcb-util0-dev libxcb-xkb-dev pkg-config python-xcbgen xcb-proto libxcb-xrm-dev i3-wm libasound2-dev libmpdclient-dev libiw-dev libcurl4-openssl-dev libpulse-dev git g++ libxcb-composite0-dev pulseaudio lm-sensors ttf-unifont unifont -y
+dpkg-reconfigure fontconfig-config
+git clone https://github.com/jaagr/polybar.git
+cd polybar 
+./build.sh &
+fc-cache -vf ~/.fonts/
