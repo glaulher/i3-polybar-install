@@ -6,7 +6,7 @@ apt install pcmanfm ranger adapta-gtk-theme papirus-icon-theme breeze-cursor-the
 apt install libnotify-bin pulseaudio pavulcontrol ttf-mscorefonts-installer -y
 apt install lxrandr lxappearance xarchiver smplayer mtp-tools gvfs-backends feh -y
 apt install graphicsmagick atool highlight poppler-utils mupdf transmission -y
-apt install git fonts-firacode rxvt-unicode lxpolkit conky compton -y
+apt install git xsel fonts-firacode rxvt-unicode lxpolkit conky compton -y
 
 
 
