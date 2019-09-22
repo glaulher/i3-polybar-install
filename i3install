@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-apt --no-install-recommends install xserver-xorg-video-intel xorg -y && 
+apt --no-install-recommends install xserver-xorg-video-intel xorg -S && 
 apt install sudo xinit i3wm geany xdotool yad terminator jq xbacklight rofi -y &&
 apt install pcmanfm ranger adapta-gtk-theme papirus-icon-theme breeze-cursor-theme -y &&
 apt install libnotify-bin pulseaudio pavulcontrol ttf-mscorefonts-installer -y &&
