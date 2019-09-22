@@ -15,9 +15,9 @@ apt install git xsel fonts-firacode rxvt-unicode lxpolkit conky compton curl -y
 apt install cmake cmake-data libcairo2-dev libxcb1-dev libxcb-ewmh-dev libxcb-icccm4-dev libxcb-image0-dev libxcb-randr0-dev libxcb-util0-dev libxcb-xkb-dev pkg-config python-xcbgen xcb-proto libxcb-xrm-dev i3-wm libasound2-dev libmpdclient-dev libiw-dev libcurl4-openssl-dev libpulse-dev git g++ libxcb-composite0-dev pulseaudio lm-sensors ttf-unifont unifont -y 
 dpkg-reconfigure fontconfig-config 
 git clone https://github.com/jaagr/polybar.git 
-cd polybar 
-./build.sh &
-fc-cache -vf ~/.fonts/
+#cd polybar 
+#./build.sh &
+#fc-cache -vf ~/.fonts/
 #codium#
 wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg | sudo apt-key add -
 echo 'deb https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/repos/debs/ vscodium main' | sudo tee --append /etc/apt/sources.list
