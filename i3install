@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 apt --no-install-recommends install xserver-xorg-video-intel xorg -y 
-apt install sudo xinit i3wm geany xdotool yad terminator jq xbacklight rofi -y 
+apt install sudo xinit i3 geany xdotool yad terminator jq xbacklight rofi -y 
 apt install pcmanfm ranger adapta-gtk-theme papirus-icon-theme breeze-cursor-theme -y
 apt install libnotify-bin pulseaudio pavulcontrol ttf-mscorefonts-installer -y 
 apt install lxrandr lxappearance xarchiver chromium smplayer mtp-tools gvfs-backends feh -y 
