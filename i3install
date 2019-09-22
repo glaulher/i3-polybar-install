@@ -3,7 +3,7 @@
 apt --no-install-recommends install xserver-xorg-video-intel xorg -y 
 apt install sudo xinit i3 geany xdotool yad terminator jq xbacklight rofi -y 
 apt install pcmanfm ranger adapta-gtk-theme papirus-icon-theme breeze-cursor-theme -y
-apt install libnotify-bin pulseaudio pavulcontrol ttf-mscorefonts-installer -y 
+apt install libnotify-bin pulseaudio pavulcontrol ttf-mscorefonts-installer libnotify-bin -y 
 apt install lxrandr lxappearance xarchiver chromium smplayer mtp-tools gvfs-backends feh -y 
 apt install graphicsmagick atool highlight poppler-utils mupdf transmission -y 
 apt install git xsel fonts-firacode rxvt-unicode lxpolkit conky compton curl -y 
