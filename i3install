@@ -23,3 +23,6 @@ wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.g
 echo 'deb https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/repos/debs/ vscodium main' | sudo tee --append /etc/apt/sources.list
 sudo apt update
 sudo apt install codium -y
+
+#wicd para o wifi#
+sudo apt install wicd -y
