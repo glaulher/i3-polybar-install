@@ -7,6 +7,7 @@ apt install libnotify-bin pulseaudio pavulcontrol ttf-mscorefonts-installer libn
 apt install lxrandr lxappearance xarchiver chromium smplayer mtp-tools gvfs-backends feh -y 
 apt install graphicsmagick atool highlight poppler-utils mupdf transmission neofetch -y 
 apt install git xsel fonts-firacode rxvt-unicode lxpolkit conky compton curl -y 
+apt install pulseaudio pavucontrol -y
 
 
 
